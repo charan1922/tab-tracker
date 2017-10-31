@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
-    "lint":  "node_modules/.bin/eslint **/*.js"
+    "start": "cross-env node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint":  "cross-env node_modules/.bin/eslint **/*.js"
 
     },
   "keywords": [],
@@ -14,5 +14,8 @@
   "dependencies": {
     "eslint": "^4.10.0",
     "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.1" 
   }
 }
