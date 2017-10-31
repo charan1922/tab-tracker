@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "start": "cross-env node_modules/nodemon/bin/nodemon.js src/app.js --exec \"npm run lint && node\"",
     "lint":  "cross-env node_modules/.bin/eslint **/*.js"
 
     },
