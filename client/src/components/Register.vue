@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h1>Charan Teja</h1>
+<h1>Register</h1>
+<input type="email" name="email" placeholder="email">
+<input type="password" name="password" placeholder="password">
+<button type="button">Register</button>
+
   </div>
 </template>
 
 <script>
 export default {
-
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return {}
   }
 }
 </script>
